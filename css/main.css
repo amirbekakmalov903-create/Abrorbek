@@ -1,0 +1,292 @@
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 1440px;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.header{
+    background: rgb(70, 69, 69);
+    height: 60px;
+    padding: 15px;
+
+
+}
+.header-link{
+    color: #fefbfb;
+}
+.header-item{
+    gap: 40px;
+}
+.header-link1{
+    margin-left: 100px;
+}
+.header-link3{
+    background: #5e5d5d;
+    color: #fefbfb;
+    width: 100px;
+}
+
+/* ___________________HERO___________________/ */
+
+
+
+
+
+
+
+
+/* ____________SEZON_________________/ */
+
+.sezon{
+    background: #161616;
+    padding: 50px;
+    width: 720px;
+    margin-right: 720px;
+    margin-top: -5px;
+
+
+}
+.sezon-list{
+    display: flex;
+    width: 100px;
+    margin-right: 720px;
+
+}
+.sezon-title{
+    color: #fefbfb;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.sezon-title1{
+    color: #fefbfb;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.sezon-text{
+    color: #f0c803;
+    margin-left: 50px;
+}
+.sezon-hr{
+    width: 100px;
+    margin-bottom: 40px;
+}
+.sezon-img{
+    margin-bottom: 20px;
+}
+
+/* ___________novaya____________/ */
+
+.novaya{
+    margin-left: 720px;
+    margin-top: -482px;
+
+}
+.novaya-img{
+    width: 720px;
+    height: 482px;
+}
+
+/* _____________novoya1___________/ */
+
+.novoya1-img{
+    width: 720px;
+    height: 482px;
+    margin-top: -4px;
+}
+/* _________________lorem____________/ */
+
+.lorem{
+    width: 620px;
+    margin-left: 800px;
+    margin-top: -404px;
+    margin-bottom: 56px;
+}
+.lorem-hr{
+    width: 150px;
+    height: 1px;
+    margin-bottom: 30px;
+}
+.lorem-title{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.lorem-text{
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.lorem-btn{
+    width: 250px;
+    height: 50px;
+    margin-left: 200px;
+    background: #c5a606de;
+    border: none;
+}
+.lorem-btn:hover{
+     background: black;
+     color: #fb9005;
+}
+
+/* ________________NOVY_______________/ */
+
+
+.novy{
+    background: black;
+    height: 700px;
+}
+.novy-title{
+    margin-left: 500px;
+    margin-bottom: 25px;
+    color: #fefbfb;
+    font-size: 50px;
+}
+.novy-hr{
+    width: 150px;
+    height: 2px;
+    border: none;
+    background: #5d5c5c;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+.novy-img{
+    border: 1px solid black;
+    background: #2e2d2d;
+    height: 200px;
+}
+.novy-text{
+    color: #e5aa06;
+}
+.novy-text1{
+    color: #f5c502;
+}
+.novy-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    gap: 20px 5px;                        
+    width: 100%;
+    max-width: 1400px;                      
+    margin: 40px auto 0;
+    padding: 0;
+}
+.novy-item{
+    gap: 30px;
+}
+
+/* _______________wrapper________________/ */
+
+.wrapper{
+    background: rgb(18, 18, 18);
+    height: 400px;
+}
+.wrapper-title{
+    color: #fefbfb;
+    font-size: 55px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+.wrapper-hr{
+    width: 150px;
+    border: none;
+    background: #5d5c5c;
+    height: 2px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+.wrapper-title1{
+    color: #fefbfb;
+    margin-left: 100px;
+}
+.wrapper-list{
+    display: flex;
+}
+/* _______________MAGAZIN___________/ */
+
+.magazin{
+    background-image: url(../images/OXRGI\ QISMI.png);
+    height: 350px;
+    margin-top: 0;
+    padding-top:20px;
+
+}
+.magazin-content{
+
+}
+.magazin-title{
+    color: #fb9905;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+.magazin-text{
+    color: #fb9005;
+}
+.magazin-container{
+    width: 400px;
+    margin-left: 200px;
+}
+/* ___________2+____________ */
+
+.magazin-title1{
+    color: #fefbfb;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fb9005;
+    margin-left: 12px;
+}
+.magazin-btn{
+    background: #fb9005;
+    border: none;
+    width: 80px;
+    height: 30px;
+    margin-left: 12px;
+}
+.magazin-btn:hover{
+    background: black;
+    color: #fb9005;
+}
+.magazin-item1{
+    width: 300px;
+    margin-right: 480px;
+    margin-top: -100px;
+}
+/* _____________3______________/ */
+.magazin-item2{
+    width: 200px;
+    margin-right: 200px;
+    margin-top: -100px;
+}
+.magazin-title2{
+    color: #fb9005;
+    margin-bottom: 20px;
+}
+.magazin-text2{
+    color: #fb9005;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 400px;
+}
+.magazin-btn2{
+    background: #fb9005;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+.magazin-btn2:hover{
+    background: black;
+    color: #fb9005;
+}
